@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="listener.WebDriverListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="methods">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="testRunner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- testRunner.TestRunner -->
+      <class name="testCases.TACreateContact">
+        <methods>
+          <include name="initreport"/>
+          <include name="teardown"/>
+          <include name="createcontact"/>
+        </methods>
+      </class> <!-- testCases.TACreateContact -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="cucumber(failed)" parallel="methods">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="testRunner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- testRunner.TestRunner -->
+      <class name="testCases.TACreateContact">
+        <methods>
+          <include name="initreport"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testCases.TACreateContact -->
+    </classes>
+  </test> <!-- cucumber(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75526" started-at="2017-08-10T07:07:08Z" finished-at="2017-08-10T07:08:24Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@2bbf4b8b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="38470" started-at="2017-08-10T07:07:08Z" finished-at="2017-08-10T07:07:47Z">
+      <class name="testCases.TACreateContact">
+        <test-method status="PASS" signature="testdescriptions()[pri:0, instance:testCases.TACreateContact@a7e666]" name="testdescriptions" is-config="true" duration-ms="2" started-at="2017-08-10T12:37:08Z" finished-at="2017-08-10T12:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescriptions -->
+        <test-method status="PASS" signature="createcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TACreateContact@a7e666]" name="createcontact" duration-ms="37320" started-at="2017-08-10T12:37:09Z" data-provider="getdata" finished-at="2017-08-10T12:37:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Don]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[General Comments]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test message]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+      </class> <!-- testCases.TACreateContact -->
+    </test> <!-- Test -->
+    <test name="cucumber" duration-ms="37043" started-at="2017-08-10T07:07:47Z" finished-at="2017-08-10T07:08:24Z">
+      <class name="testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@2bbf4b8b]" name="setUpClass" is-config="true" duration-ms="172" started-at="2017-08-10T12:37:47Z" finished-at="2017-08-10T12:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@2bbf4b8b]" name="feature" duration-ms="36310" started-at="2017-08-10T12:37:47Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-08-10T12:38:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create New Contact in TA site]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@2bbf4b8b]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2017-08-10T12:38:24Z" finished-at="2017-08-10T12:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+      <class name="testCases.TACreateContact">
+        <test-method status="PASS" signature="initreport()[pri:0, instance:testCases.TACreateContact@a7e666]" name="initreport" is-config="true" duration-ms="143" started-at="2017-08-10T12:37:08Z" finished-at="2017-08-10T12:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initreport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.TACreateContact@a7e666]" name="teardown" is-config="true" duration-ms="209" started-at="2017-08-10T12:38:24Z" finished-at="2017-08-10T12:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TACreateContact -->
+    </test> <!-- cucumber -->
+  </suite> <!-- Suite -->
+</testng-results>
